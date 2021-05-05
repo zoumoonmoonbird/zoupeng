@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<form action="/admin/login" method="post">
+    <div>
+        <div>
+            <span>用户名:</span>
+            <span><input type="text" name="username"></span>
+        </div>
+        <div>
+            <span>密码:</span>
+            <span><input type="text" name="password"></span>
+        </div>
+        <div>
+            <span><input type="checkbox" name="remember-me"></span>
+            <span>记住我:</span>
+        </div>
+        <div>
+            <span><input type="submit" value="login"></span>
+        </div>
+    </div>
+</form>
+</body>
+</html>

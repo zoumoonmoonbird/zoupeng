@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    username: root
+    password: 123123
+    url: jdbc:mysql://127.0.0.1:3306/zoupeng?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=PRC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
